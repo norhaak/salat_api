@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Horaires de prière</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href={{ url_for('static', filename='main.css') }} />
+    <script src={{ url_for('static', filename='main.js') }}></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+
+        <h3>Horaires de prière de la ville de {{ city }} le {{ date }}</h3>
+
+
+
+        <div class="row">
+
+            {% for prayer in prayers['prayers'] %}
+            <div class="col s12 m4">
+                {% if prayer['next_prayer'] == True %}
+                <div class="card light-green darken-1">
+                {% else %}
+                <div class="card green darken-3">
+                {% endif %}
+                
+                    <div class="card-content white-text">
+                        <span class="card-title">{{ prayer['name']|upper }}</span>
+                        {{ prayer['time'] }}
+                        {% if prayer['next_prayer'] == True %}
+                        <span class="time-left">{{ prayer['time_left'] }}</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        
+
+    </div>
+
+
+    </div>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

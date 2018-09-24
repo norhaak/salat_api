@@ -1,0 +1,9 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.time-left {
+    color: blue;
+    text-align: right;
+    margin-right: 30px;
+}
