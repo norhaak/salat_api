@@ -1,0 +1,106 @@
+Feguig:1
+Oujda:2
+Bouâarfa:3
+Jrada:4
+Berkane:5
+Ain châir:6
+Taourirt:7
+Nador:8
+Melilla:9
+Bouânane:10
+Guersif:11
+Boutagit:12
+Tandit:13
+Aknoul:14
+Alhoceima:15
+Missour:16
+Taza:17
+Bourd:18
+Arfoud:19
+Rissani:20
+Oued Amlil:21
+Tehla:22
+Errachidia:23
+Rich:24
+Menzal beni yazgha:25
+Taounat:26
+Tissa:27
+Boulemane:28
+Midelet:29
+Sefrou:30
+Guelmima:31
+Fes:32
+Imouzar Kandar:33
+Tinjdad:34
+Ifrane:35
+Moulay Yaâgoub:36
+Azrou:37
+Chefchaouan:38
+Sebta:39
+Tetouan:40
+Hajb:41
+Zerhoune:42
+Meknes:43
+Ouazane:44
+Khénifra:45
+Sidi kacém:46
+Tizi ousli:47
+Tanger:48
+Zagoura:49
+Laksar lakbire:50
+Arbaoua:51
+Sidi Slimane:52
+Souq Arbiâ Gharb:53
+Assila:54
+Khémissat:55
+Kalâa Megouna:56
+Araich:57
+Moulay Bouâaza:58
+Kesbat Tadla:59
+Sidi yahya lgharb:60
+Tiflet:61
+Beni Mellal:62
+Meskoura:63
+Oued Zam:64
+Azilal:65
+Oued zam:66
+Kénitra:67
+Remani:68
+Rabat Salé:69
+Khouribga:70
+Ouerzazat:71
+Demnat:72
+Ben slimane:73
+Bouznika:74
+Lgara:75
+Mohammedia:76
+kelâat Esraghna:77
+Berrchid:78
+Settat:79
+Casablanca:80
+Talouine:81
+Bengrire:82
+Tata:83
+Merrakech:84
+Akka:85
+Azemour:86
+Aghram:87
+Eljadida:88
+Youssoufia:89
+Taroudent:90
+Tafraout:91
+Safi:92
+Zag:93
+Assa:94
+Agadir:95
+Tiznit:96
+Essaouira:97
+Gelmim:98
+Sidi Ifni:99
+Tantan:100
+Smara:101
+Terfaya:102
+Laayoune:103
+Boujdour:104
+Dakhla:105
+Lagouira:106
