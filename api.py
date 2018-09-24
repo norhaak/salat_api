@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
-from utils import getNextPrayer
+from utils import getNextPrayer, convert2DateTime, convert2UTC
 import os
 import time
 
@@ -16,6 +16,7 @@ def buildDayPrayerDict(aList):
     _prayerDict['day'] = aList[0].text.strip()
     prayers_name = ['fajr', 'chourouq', 'dhuhr', 'asr', 'maghrib', 'ishae']
     prayers_time = list(map(lambda x: x.text.strip(), aList[1:]))
+    prayers_time = list(map(convert2UTC, prayers_time))
     time_left, prayer_idx = getNextPrayer(prayers_time)
     _prayers = []
     for i in range(len(prayers_name)):

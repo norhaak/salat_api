@@ -39,9 +39,9 @@
                 
                     <div class="card-content white-text">
                         <span class="card-title">{{ prayer['name']|upper }}</span>
-                        {{ prayer['time'] }}
+                        <div class="left">{{ prayer['time'] }}</div>
                         {% if prayer['next_prayer'] == True %}
-                        <span class="time-left">{{ prayer['time_left'] }}</span>
+                        <div class="right">{{ prayer['time_left'] }}</div>
                         {% endif %}
                     </div>
                 </div>
